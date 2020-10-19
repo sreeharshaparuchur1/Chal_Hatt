@@ -13,8 +13,8 @@ def display(image):
     plt.show()
 
 if(__name__ == "__main__"):
-    image = cv2.imread("./../Downloads/DIPa1_images/fg.jpg", 1)
-    background = cv2.imread("./../Downloads/DIPa1_images/bg.jpg", 1)
+    image = cv2.imread("./../Downloads/res/fg.jpg", 1)
+    background = cv2.imread("./../Downloads/res/bg.jpg", 1)
     image = cv2.resize(image, (1280, 720))
     background = cv2.resize(background, (1280, 720))
     #loads the images in the BGR colourspace and resizes them to 1280 x 720
